@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/watchinghour_11zon"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="105dp"
+        android:layout_height="111dp"
+        card_view:srcCompat="@drawable/pharmacy" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="bottom"
+        android:text="Sign Out"
+        android:textColor="#673AB7"
+        card_view:backgroundTint="@color/yellow" />
+
+</LinearLayout>

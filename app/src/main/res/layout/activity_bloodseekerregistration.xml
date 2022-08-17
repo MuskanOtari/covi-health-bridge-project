@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/watchinghour_11zon">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="30dp"
+
+        tools:context=".Login">
+
+
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="107dp"
+            android:layout_gravity="right"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right"
+            android:text="Covi-Health Bridge"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="41dp"
+            android:layout_gravity="right"
+            android:fontFamily="serif"
+            android:text="www.covihealthbridge.com"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+
+            android:text="Blood Donor Registraion "
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Name"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/et_pass3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Password"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Adress"
+            android:inputType="textPostalAddress"
+            android:maxLength="40"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Age"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/bldgrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Blood Group"
+            android:inputType="text"
+            android:maxLength="2"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/et_aadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:hint="Aadhar-Card Number"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:padding="10dp" />
+
+        <Button
+
+            android:id="@+id/bt_submit"
+            android:layout_width="90dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="callNextSignupScreen"
+            android:text="Submit"
+            app:backgroundTint="#FFC107" />
+
+
+    </LinearLayout>
+</ScrollView>

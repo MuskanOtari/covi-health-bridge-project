@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NewProjectCOVI</string>
+    <string name="invalid_name">Please enter valid name</string>
+    <string name="invalid_mobile">Please enter valid  mobile number</string>
+    <string name="invalid_adress">Please enter valid address</string>
+    <string name="invalid_email">Please enter valid email-id</string>
+    <string name="invalid_age">Please enter valid age</string>
+    <string name="invalid_bldgrp">Please enter valid  bloud group</string>
+    <string name="invalid_aadhar">Please enter valid aadhar-card number</string>
+    <string name="invalid_symptoms">Please enter valid symptoms</string>
+    <string name="invalid_password">Please enter correct password</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
